@@ -1,3 +1,6 @@
+url: https://paulywill.github.io/mediator-innisfil-TM/
+baseurl: /mediator-innisfil-TM
+
 # Build settings
 plugins:
   - jemoji
@@ -22,8 +25,6 @@ author_image: "/assets/images/author.jpg"
 
 paginate:	5
 
-url: "https://paulywill.github.io/mediator-innisfil-TM/" # the base hostname & protocol for your site
-baseurl: ""
 #used to display twitter cards
 twitter_handle: '@dirkfabisch'
 
