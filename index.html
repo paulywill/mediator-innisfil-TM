@@ -10,7 +10,7 @@ layout: default
 
 <header class="blog-header">
     {% if site.logo %}
-      <a class="blog-logo" href="{{site.url}}{{site.baseurl}}" style="background-image: url('{{ site.logo | prepend: site.baseurl }}')">{{ site.title }}</a>
+      <a class="blog-logo" href="{{site.url}}" style="background-image: url('{{ site.logo | prepend: site.baseurl }}')">{{ site.title }}</a>
     {% endif %}
     <h1 class="blog-title">{{ site.title }}</h1>
     <h2 class="blog-description">{{ site.description }}</h2>
@@ -45,7 +45,7 @@ layout: default
             </section>
             <div class="post-meta">
               <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-  <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
+ 
             </div>
           </div>
         </article>
@@ -67,7 +67,7 @@ layout: default
             </section>
             <div class="post-meta">
               <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-<!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
+
             </div>
           </div>
         </article>
@@ -89,7 +89,6 @@ layout: default
     </nav>
 
 
-    <!-- {{!! After all the posts, we have the previous/next pagination links }}
-    {{pagination}} -->
+    
 
 </main>
